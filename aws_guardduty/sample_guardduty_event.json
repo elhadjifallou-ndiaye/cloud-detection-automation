@@ -1,0 +1,18 @@
+{
+  "version": "0",
+  "id": "1234abcd-5678-ef00-1111-222233334444",
+  "detail-type": "GuardDuty Finding",
+  "source": "aws.guardduty",
+  "account": "111122223333",
+  "time": "2025-10-05T12:00:00Z",
+  "region": "us-east-1",
+  "resources": [],
+  "detail": {
+    "schemaVersion": "2.0",
+    "service": "guardduty",
+    "severity": 8.5,
+    "title": "Suspicious EC2 instance behavior",
+    "id": "finding-demo-001",
+    "resource": {"resourceType": "Instance"}
+  }
+}
